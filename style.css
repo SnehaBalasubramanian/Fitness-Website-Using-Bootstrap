@@ -1,4 +1,4 @@
-
+@import url(https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap);
 .nav-link:hover {
     border: 3px solid #F4538A; 
     padding: 8px; 
@@ -29,6 +29,44 @@
     height: 100%;
 }
 
-
-
-
+@media (max-width: 768px) {
+    body{
+       justify-content: center;
+    }
+    .box1{
+        display: none;
+    }
+    .card2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .tab{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .foot{
+       text-align: center;
+    }
+    .foot1{
+       text-align: center;
+    }
+}
+@media (max-width: 1208px){
+    .tab{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .first{
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+}
